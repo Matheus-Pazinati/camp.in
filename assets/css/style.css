@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* =============================== RESET ====================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+}
+
+/* =============================== HOME ===================== */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home__register {
+    width: 50vw;
+    height: 100vh;
+    background-color: #030303;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo img {
+    flex: 1;
+}
+.home__image {
+    background: url('../images/side-image.jpg') no-repeat center/cover;
+    flex: 1;
+    height: 100vh;
+}
+
+/* =============================== FORM ===================== */
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #24221F;
+}
+.form__container {
+    padding: 1rem 3rem;
+    border-radius: 4px;
+    height: 90vh;
+    max-height: 600px;
+    width: 100%;
+    max-width: 600px;
+}
+.form__text {
+    margin-bottom: 1rem;
+    color: #D4CCB6;
+}
+.form__text p {
+    font-size: 14px;
+}
+.form__container label {
+    display: block;
+    color: #AFB6C2;
+    margin-bottom: 1.5rem;
+}
+.form__container input {
+    width: 100%;
+    padding: 0.35rem 1rem;
+    background-color: transparent;
+    border: 2px solid #868686;
+    color: #EEE;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.form__container input:focus {
+    border-color: #FFC632;
+}
+.register {
+  margin-bottom: 1rem;
+}
+.form__container input[type="submit"] {
+    margin-top: 1rem;
+    padding: 1rem 0;
+    font-size: 18px;
+    color: #473404;
+    background-color: #FFC632;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+.form__login {
+    color: #FFC632;
+}
+.form__login a {
+    text-decoration: none;
+    color: #FFC632;
+    font-weight: 600;
+}
