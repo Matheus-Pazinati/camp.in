@@ -4,8 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>camp.in - Cadastro</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  
+  <section class="home">
+      <div class="home__register">
+        <h1 class="logo">
+          <img src="./assets/images/logo.svg" alt="Logotipo da empresa camp.in">
+        </h1>
+        <form method="POST">
+          <fieldset class="form__container">
+            <div class="form__text">
+              <h2 class="form__title">Faça seu cadastro.</h2>
+           </div>
+            <label>
+              Seu nome<br/>
+              <input type="text" name="name" id="name" placeholder="Informe seu nome">
+            </label>
+            <label>
+              Seu e-mail<br/>
+              <input type="text" name="email" id="email" placeholder="Informe seu email">
+            </label>
+            <label>
+              Senha<br/>
+              <input type="password" name="password" id="password1" placeholder="Informe uma senha">
+            </label>
+            <label>
+              Confirmar senha<br/>
+              <input type="password" name="password" id="password2" placeholder="Confirme a senha">
+            </label>
+            <label class="register">
+              <input type="submit" name="submit" id="submit" value="CADASTRAR">
+            </label>
+            <div class="form__login">
+              Já tem uma conta ? <a href="">Faça login</a>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="home__image"></div>
+    </div>
+  </section>
 </body>
 </html>
