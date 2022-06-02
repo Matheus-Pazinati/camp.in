@@ -40,10 +40,10 @@ form {
   align-items: center;
   justify-content: center;
   background-color: #24221F;
+  border-radius: 5px;
 }
 .form__container {
     padding: 1rem 3rem;
-    border-radius: 4px;
     height: 90vh;
     max-height: 600px;
     width: 100%;
@@ -85,6 +85,9 @@ form {
     font-weight: 600;
     cursor: pointer;
     border: none;
+}
+.form__container input[type="submit"]:hover {
+  filter: grayscale(25%);
 }
 .form__login {
     color: #FFC632;
