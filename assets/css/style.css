@@ -63,7 +63,7 @@ form {
 }
 .form__container input {
     width: 100%;
-    padding: 0.35rem 1rem;
+    padding: 0.35rem 2rem 0.35rem 1rem;
     background-color: transparent;
     border: 2px solid #868686;
     color: #EEE;
@@ -78,7 +78,7 @@ form {
 }
 .icon,
 .icon-blocked {
-  font-size: 20px;
+  font-size: 22px;
   position: absolute;
   right: 8px;
   top: 8px;
