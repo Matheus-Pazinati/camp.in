@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>camp.in - Cadastro</title>
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/icons/style.css">
 </head>
 <body>
   <section class="home">
@@ -15,7 +16,10 @@
         <form method="POST">
           <fieldset class="form__container">
             <div class="form__text">
-              <h2 class="form__title">Faça seu cadastro.</h2>
+              <h2 class="form__title">
+                Faça seu cadastro.
+                <i class="icon-clipboard"></i>
+              </h2>
            </div>
             <label>
               Seu nome<br/>
@@ -27,11 +31,19 @@
             </label>
             <label>
               Senha<br/>
-              <input type="password" name="password" id="password1" placeholder="Informe uma senha">
+              <div class="password__container">
+                <input type="password" name="password" id="password1" placeholder="Informe uma senha">
+                <i class="icon-eye icon" data-icon></i>
+                <i class="icon-eye-blocked icon icon-blocked" data-icon></i>
+              </div>
             </label>
             <label>
               Confirmar senha<br/>
-              <input type="password" name="password" id="password2" placeholder="Confirme a senha">
+              <div class="password__container">
+                <input type="password" name="password" id="password2" placeholder="Confirme a senha">
+                <i class="icon-eye icon" data-icon></i>
+                <i class="icon-eye-blocked icon icon-blocked" data-icon></i>
+              </div>
             </label>
             <label class="register">
               <input type="submit" name="submit" id="submit" value="CADASTRAR">

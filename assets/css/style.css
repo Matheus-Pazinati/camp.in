@@ -73,6 +73,23 @@ form {
 .form__container input:focus {
     border-color: #FFC632;
 }
+.password__container {
+  position: relative;
+}
+.icon,
+.icon-blocked {
+  font-size: 20px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  cursor: pointer;
+}
+.icon:hover {
+  color: #FFC632;
+}
+.icon-blocked {
+  display: none;
+}
 .register {
   margin-bottom: 1rem;
 }
