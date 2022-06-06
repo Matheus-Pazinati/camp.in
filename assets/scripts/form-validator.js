@@ -28,17 +28,22 @@ export const formValidator = {
                           return 'Campo não pode ser vazio !';
                       }                         
                   break;
-
                   case 'min': 
                   if (input.value.length < rDetails[1]) {
                       return `O campo precisa ter no mínimo ${rDetails[1]} caracteres`
                   }
                   break;
-
                   case 'max': 
                   if (input.value.length >= rDetails[1]) {
                       return `O campo deve ter no máximo ${rDetails[1]} caracteres`
                   }
+                  break;
+                  case 'password': 
+                  let password = document.getElementById('password1')
+                    if (input.value !== password.value) {
+                        return 'As senhas devem ser iguais !'
+                    }
+                    break;
               }
           }
       }
