@@ -23,16 +23,16 @@
            </div>
             <label>
               Seu nome<br/>
-              <input type="text" name="name" id="name" placeholder="Informe seu nome">
+              <input type="text" name="name" id="name" placeholder="Informe seu nome" data-rules="required|min=2">
             </label>
             <label>
               Seu e-mail<br/>
-              <input type="text" name="email" id="email" placeholder="Informe seu email">
+              <input type="text" name="email" id="email" placeholder="Informe seu email" data-rules="required|email">
             </label>
             <label>
               Senha<br/>
               <div class="password__container">
-                <input type="password" name="password" id="password1" placeholder="Informe uma senha">
+                <input type="password" name="password" id="password1" placeholder="Informe uma senha" data-rules="required|min=6">
                 <i class="icon-eye icon" data-icon></i>
                 <i class="icon-eye-blocked icon icon-blocked" data-icon></i>
               </div>
@@ -40,7 +40,7 @@
             <label>
               Confirmar senha<br/>
               <div class="password__container">
-                <input type="password" name="password" id="password2" placeholder="Confirme a senha">
+                <input type="password" name="password" id="password2" placeholder="Confirme a senha" data-rules="required|password">
                 <i class="icon-eye icon" data-icon></i>
                 <i class="icon-eye-blocked icon icon-blocked" data-icon></i>
               </div>
