@@ -17,5 +17,8 @@
     "url": "https://github.com/Matheus-Pazinati/camp.in/issues"
   },
   "type": "module",
-  "homepage": "https://github.com/Matheus-Pazinati/camp.in#readme"
+  "homepage": "https://github.com/Matheus-Pazinati/camp.in#readme",
+  "dependencies": {
+    "sweetalert2": "^11.4.17"
+  }
 }
