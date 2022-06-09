@@ -23,6 +23,7 @@ export const formValidator = {
     if (submitForm) {
       formElement.submit;
       showSucessMessage()
+      formValidator.clearFields(inputs)
     }
   },
   checkInput: (input) => {
@@ -78,6 +79,11 @@ export const formValidator = {
     const errorBoxes = document.querySelectorAll('.error')
     errorBoxes.forEach((box) => {
       box.remove()
+    })
+  },
+  clearFields: (inputs) => {
+    inputs.forEach((input) => {
+      input.value = "";
     })
   }
 };
