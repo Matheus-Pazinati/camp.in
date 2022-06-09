@@ -1,3 +1,11 @@
+function showSucessMessage() {
+  return Swal.fire(
+    'Cadastro realizado com sucesso!',
+    'Faça login na plataforma',
+    'success'
+  )
+}
+
 export const formValidator = {
   handleSubmit: (event) => {
     event.preventDefault();
@@ -13,7 +21,8 @@ export const formValidator = {
       }
     })
     if (submitForm) {
-      formElement.submit();
+      formElement.submit;
+      showSucessMessage()
     }
   },
   checkInput: (input) => {
