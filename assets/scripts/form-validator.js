@@ -56,8 +56,9 @@ export const formValidator = {
             }
           break;
           case 'email': 
-            let pattern =  new RegExp('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+).(\.[a-z]{2,3})$');
-            if (!pattern.test(input.value)) {
+            //Regex reference: https://regex101.com/r/VLjCq0/2
+            let emailRegex = new RegExp('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+).(\.[a-z]{2,3})$');
+            if (!emailRegex.test(input.value)) {
               return 'Email inválido.'
             }
         }
