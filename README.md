@@ -17,7 +17,7 @@
 <br>
 <h2>📌 Melhorias a serem implementadas</h2>
 <ul>
-  <li>Deixar o site responsivo para dispositivos móveis</li>
+  <li>Deixar o site responsivo para dispositivos móveis - Ok ✔️</li>
   <li>Continuar o projeto, construção das próximas páginas. Definir a finalidade do site</li>
   <li>Criar a autenticação do login do usuário</li>
 </ul>
