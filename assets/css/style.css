@@ -129,3 +129,14 @@ form {
     color: #FFC632;
     font-weight: 600;
 }
+
+/* =============================== RESPONSIVIDADE ===================== */
+@media (max-width: 1100px) {
+  .home__image {
+    display: none;
+  }
+  .home__register {
+    width: 100vw;
+    padding: 0 1rem;
+  }
+}
